@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#pokemon-info {
+    margin-top: 20px;
+}
+
+#pokemon-img {
+    margin-top: 20px;
+}
+
+#types-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+}
+
+.type-img {
+    max-width: 50px;
+    max-height: 50px;
+    cursor: pointer;
+}
+
+.type-selected {
+    outline: 2px solid blue;
+}
+
+#message {
+    margin-top: 20px;
+}
